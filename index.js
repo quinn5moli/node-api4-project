@@ -1,9 +1,8 @@
-require('dotenv').config()
-
-const express = require('express');
+require('dotenv').config();
+const server = require('./server');
 const colors = require('colors');
 
-const server = express();
+
 colors.enable();
 
 const port = process.env.PORT || 4040;
