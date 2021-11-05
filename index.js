@@ -7,7 +7,6 @@ colors.enable();
 
 const port = process.env.PORT || 4040;
 
-server.use(express.json())
 
 
 server.listen(port, () => {
