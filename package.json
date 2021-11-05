@@ -1,0 +1,28 @@
+{
+  "name": "api4-project",
+  "description": "In this challenge, you will build a simple Express app and deploy it to Heroku.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinn5moli/node-api4-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quinn5moli/node-api4-project/issues"
+  },
+  "homepage": "https://github.com/quinn5moli/node-api4-project#readme",
+  "devDependencies": {
+    "eslint-plugin-react": "^7.26.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
